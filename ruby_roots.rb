@@ -20,3 +20,18 @@ puts total_deposit(1500, 500, 5400, 6578, 5490)
 
 #output deposited ksh[1500, 500, 5400, 6578, 5490] in my bank account. 
     
+arr = [10,5,10,3,100]
+arr.sort
+puts arr.sort
+
+100 * 5
+#output is 500
+
+hash = {
+    "name" => "Jane Doe",
+    "gender" => "female",
+    "age" => 18
+}
+
+puts hash.keys
+puts hash.values
