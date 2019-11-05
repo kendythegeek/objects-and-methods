@@ -27,11 +27,6 @@ puts arr.sort
 100 * 5
 #output is 500
 
-hash = {
-    "name" => "Jane Doe",
-    "gender" => "female",
-    "age" => 18
-}
 
 puts hash.keys
 puts hash.values
