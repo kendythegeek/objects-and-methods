@@ -97,10 +97,28 @@ person.grow
 
 person.die
 
-person.eat
 
 =begin
 I assigned the instance of animal to person and called the named methods.It responded 
 positively to reproduce, grow and die because it was able to identify to those instructions 
 unlike eat where it didn't recognise it because it does not exist.
 =end
+
+class Bank
+    def Bank.have_picked_up_ticket
+        "Please sit and wait for your turn."
+    end
+end
+
+Bank.have_picked_up_ticket
+
+class Bank
+    def Bank.have_valid_id?(response)
+if response == yes 
+     "Transaction in process!"
+else
+    "Authentication error occurred!"
+end
+end
+end
+
